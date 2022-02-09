@@ -1,0 +1,29 @@
+.exemplo {
+    text-align: justify;
+}
+
+.exemplo::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.lista {
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+    list-style: none;
+}
+
+.primeiro {
+    background-color: #FAA116;
+    text-align: left;
+}
+
+.segundo {
+    background-color: #57C7C3;
+}
+
+.terceiro {
+    background-color: #3B97D3;;
+}

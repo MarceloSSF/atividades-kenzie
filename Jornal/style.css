@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    padding-left: 25%;
+}
+
+h2 {
+    display: flex;
+    padding-left: 5%;
+}
+
+.imagem {
+    display: flex;
+    padding-left: 5%;
+}
+
+nav {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: fixed;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    left: 150px;
+    position: absolute;
+    right: 90px;
+}
+
+#noticia {
+    display: flex;
+    flex-direction: row;
+}
+
+#noticia > div {
+    width: 45%;
+    padding: 2%;
+}
+
+#segunda-noticia {
+    display: flex;
+    flex-direction: row;
+}
+
+#segunda-noticia > div {
+    width: 45%;
+    padding: 2%;
+}

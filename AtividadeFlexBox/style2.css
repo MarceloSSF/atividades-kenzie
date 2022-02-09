@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elemento {
+    height: 100px;
+    width: 100px;
+    flex-basis: 0;
+}
+
+.elemento:nth-child(odd) {
+    background: black;
+}
+
+.elemento:nth-child(even) {
+    background: red;
+}

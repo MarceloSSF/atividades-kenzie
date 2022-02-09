@@ -1,0 +1,43 @@
+body {
+    font-family: Sans-Serif;
+    margin: 0;
+  }
+  
+  h1 {
+    line-height: 60px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    background-image: url("https://static.pexels.com/photos/531880/pexels-photo-531880.jpeg");
+    color: white;
+  }
+  
+  ol {
+    list-style-type: upper-roman;
+  }
+  
+  a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .excited {
+    color: green;
+  }
+  
+ .row {
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-start;
+ }
+
+ .column {
+    flex-direction: column;
+    flex: 15px;
+    padding: 10px;
+}

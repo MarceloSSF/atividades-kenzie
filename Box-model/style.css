@@ -1,0 +1,22 @@
+.center {
+    background: lime;
+    width: 66%;
+    padding: 1em;
+    text-align: center;
+}
+  
+  .outside {
+    margin: 3rem 0 0 -3rem;
+    background: cyan;
+    width: 66%;
+  }
+
+  .borda {
+      margin: 100px;
+      width: 100px;
+      height: 100px;
+      background-color: pink;
+      border: 10px solid pink;
+      border-radius: 100px 0px 100px 0px;
+          
+}

@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna-1 {
+    background-color: lightgray;
+}
+
+.coluna-2 {
+    background-color: lightgreen;
+}
+
+ul {
+    justify-content: center;
+    text-align: left;
+}
+
+li {
+    line-height: 25px;
+}

@@ -1,0 +1,16 @@
+form .input-model:placeholder-shown:hover{
+    padding-left: 10px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+:placeholder-shown:focus{
+    transition: width 10s;
+    opacity: 10%;
+}
+
+.input-model:valid {
+    background-color: green;
+}
+

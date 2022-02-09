@@ -1,0 +1,22 @@
+main {
+    width: 500px;
+    border: 1px solid #1b1a28;
+    background-color: #5380dc;
+}
+
+.secao {
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 25px;
+    color: #205ec2;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}

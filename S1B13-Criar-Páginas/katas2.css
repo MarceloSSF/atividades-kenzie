@@ -1,0 +1,60 @@
+details {
+    display: flex;
+    flex-direction: row;
+}
+
+summary {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+section {
+    margin: auto 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h1:hover {
+    color: purple;
+}
+
+th {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(163, 154, 154);
+}
+
+h2 {
+    font-family: 'Courier New', sans-serif;
+}
+
+li {
+    line-height: 20px;
+}
+
+td {
+    background-color: lightpink;
+    margin: 10px;
+    padding: 10px;
+}
+
+.carne {
+    background-color: rgb(211, 76, 76);
+}
+
+.legume {
+    background-color: lightgreen;
+}
+
+.lacteo {
+    background-color: #ffffe0;
+}

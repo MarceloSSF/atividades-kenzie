@@ -1,0 +1,64 @@
+body {
+    position: relative;
+    width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+main {
+    border: solid;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+header {
+    border: solid;
+    border-radius: 5px;
+    padding: 0px;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+summary {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3 auto;    
+    list-style-type: none;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    margin: 2 auto;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}

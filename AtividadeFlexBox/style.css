@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* ESTILIZAÇÃO TAGS */
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 71px;
+}
+
+h3 {
+    color: #4C6670;
+    font-weight: 550;
+    font-style: normal;
+}
+
+p {
+    color: #4C6670;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+/* ESTILIZAÇÃO BOX */
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: baseline;
+    text-align: center;
+    max-width: 710px;
+    
+}
+
+/* ESTILIZAÇÃO CLASSE ARTICLE, ONDE FICA CADA CARD */
+.item { 
+    margin-left: 14px;
+    margin-top: 140px;
+    line-height: 28px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+/* ESTILIZAÇÃO CLASSE FILHO DO BOX, ONDE CONTÉM INFORMAÇÕES */
+.info {
+    flex-direction: column;
+    flex-basis: 10px;
+
+    background: #FFFFFF;
+    width: 238px;
+    height: 233px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #f2f8ff;
+
+}
+
+/* ESTILIZAÇÃO CLASSE FILHO DO BOX, ONDE CONTÉM PREÇO */
+.price {
+    display: flex;
+    width: 238px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+    background: #ECF1F4;
+    border: 1px solid #f2f8ff;
+    color: #4C6670;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+

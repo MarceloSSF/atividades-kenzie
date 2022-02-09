@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+   background-image: linear-gradient(to left, #a8c0ff, #3f2b96);
+   margin-top: 10%;
+
+   font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.celula {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid white;
+
+    color: white;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.celula:hover {
+    background-color: #c83d38;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    
+    margin-top: 20px;
+    text-transform: uppercase;
+
+    color: white;
+    background-color:  #e75170;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.205);
+}

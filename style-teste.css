@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display:inline-block;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#biografia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#biografia > div {
+    background-color: azure;
+    width: 25%;
+    padding: 1%;
+}
+
+a[href$=".co"]{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(241, 2, 2);
+}
+
+summary {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: blue;
+    text-shadow: 1px 1px 2px rgb(54, 73, 77);
+    opacity: 0.6;
+    width: 110%;
+}
+
+summary:hover {
+    opacity: 2.0;
+    background-color: yellow;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}

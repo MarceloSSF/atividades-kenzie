@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(to left, #74ebd5, #ACB6E5);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1, ul {
+    margin: 20px ;
+}
+
+h1 {
+    color: #fff;
+}
+
+ul {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.aprenda {
+    text-underline-offset: 4px;
+}
+
+.aprenda:visited {
+    color: white;
+}
+
+.aprenda:hover {
+    color: red;
+}
+
