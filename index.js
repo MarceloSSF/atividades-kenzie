@@ -39,7 +39,7 @@ function myFunction(){
   if(x > y || (y % 2 == 0) ) {
     return "Hello World";
   } else {
-    return "Goodbye";
+     return "Goodbye";
   }
 }
 
@@ -53,3 +53,38 @@ if (avaliarClick = true) {
 } else {
   console.log("Fechar menu");
 }
+
+let usuarioAutenticado = true;
+
+if (usuarioAutenticado) {
+  console.log("Bem-vindo");
+} else if (!usuarioAutenticado) {
+  console.log("Usuário não autenticado");
+}
+
+let usuario = 'João';
+let autenticado = false;
+
+if (usuario == 'Ana' && autenticado) {
+  console.log(`Bem-vindo ${usuario}. Você está autenticado`);
+} else if (usuario == 'Ana' && !autenticado) {
+  console.log(`Olá, ${usuario}. Você não está autenticado`);
+} else if (usuario != 'Ana' || !autenticado) {
+  console.log("Usuário não encontrado ou não autenticado");
+}
+
+let produto = 'Maçã';
+let quantidadeProduto = 10;
+let quantidadePromocao = 5 - quantidadeProduto;
+
+if (produto == 'Maçã' && quantidadeProduto >= 5) {
+  console.log('Você recebeu promoção. O valor do produto será R$5,00')
+} else {
+  console.log(`Se você adicionar mais ${quantidadePromocao} maçãs, o valor será de R$5,00`);
+}
+
+let numero = 3;
+if(numero % 2 === 0) {
+   numero = numero + 5;
+}
+console.log(numero);
