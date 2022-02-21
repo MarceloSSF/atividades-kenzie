@@ -21,4 +21,4 @@ function tabelaMultiplicacao(linha, coluna) {
 }
 
 // Obs: Os parâmetros indicam os números finais da multiplicação, iniciando em 0 e indo até o valor colocado
-tabelaMultiplicacao(10,10);
+tabelaMultiplicacao(5,5);
