@@ -20,5 +20,25 @@ function tabelaMultiplicacao(linha, coluna) {
 
 }
 
+
+function teste(linha, coluna){
+
+    const tabela = new Array(linha);
+
+    for (let i=0 ; i <= tabela.length; i++) {
+
+        tabela[i] = new Array(coluna);
+        for (let j=0; j < tabela[i].length; j++) {
+            tabela[i][j] = "Linha: " + i + " Coluna: " + j;
+        }
+
+    }
+
+    console.table(tabela);
+}
+
+
+
 // Obs: Os parâmetros indicam os números finais da multiplicação, iniciando em 0 e indo até o valor colocado
-tabelaMultiplicacao(5,5);
+//tabelaMultiplicacao(10,10);
+teste(2,5)
