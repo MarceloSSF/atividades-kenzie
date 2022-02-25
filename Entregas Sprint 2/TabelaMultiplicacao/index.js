@@ -25,10 +25,10 @@ function teste(linha, coluna){
 
     const tabela = new Array(linha);
 
-    for (let i=0 ; i <= tabela.length; i++) {
+    for (let i=0 ; i <= linha; i++) {
 
         tabela[i] = new Array(coluna);
-        for (let j=0; j < tabela[i].length; j++) {
+        for (let j=0; j <= coluna; j++) {
             tabela[i][j] = "Linha: " + i + " Coluna: " + j;
         }
 
@@ -40,5 +40,5 @@ function teste(linha, coluna){
 
 
 // Obs: Os parâmetros indicam os números finais da multiplicação, iniciando em 0 e indo até o valor colocado
-//tabelaMultiplicacao(10,10);
+tabelaMultiplicacao(10,10);
 teste(2,5)
